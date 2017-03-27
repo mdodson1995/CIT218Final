@@ -29,5 +29,6 @@ namespace FinalApplicationWReviewsMovies.Models
         {
             return new ApplicationDbContext();
         }
+        public DbSet<Reviews> Reviews { get; set; }
     }
 }
